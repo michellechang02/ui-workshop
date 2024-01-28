@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebDev Studio</title>
+    <!-- import javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <div class="ui-camp-gallery">
+      <h1>Fruity Bakery</h1>
+      <h2>By Michelle Chang</h2>
+
+      <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
+      <div class="gallery-container">
+          <div><img src="b1.jpg" alt="Image 1"></div>
+        
+        <div><img src="b2.jpg" alt="Image 2"></div>
+      
+          <div><img src="b3.jpg" alt="Image 3"></div>
+        
+        
+          <div><img src="b4.jpg" alt="Image 4"></div>
+        
+        
+          <div><img src="b5.jpg" alt="Image 5"></div>
+        
+        
+          <div><img src="b6.webp" alt="Image 6"></div>
+      </div>
+
+      <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
+      <button onclick="updatePage()">Press this button to display some fruit data</button>
+      <div id="fruitContainer"></div>
+    </div>
+    
+  </body>
+</html>
